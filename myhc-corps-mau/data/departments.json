@@ -1,0 +1,72 @@
+[
+  {
+    "img": "/content/department-1.jpg",
+    "title": "BASIC NCD SCREENING",
+    "desc": "This includes basic tests and examinations that will provide a first-level assessment looking at the risk factors of the individual.",
+    "team": [
+      "/content/doctor-400-1.jpg",
+      "/content/doctor-400-2.jpg",
+      "/content/doctor-400-3.jpg"
+    ]
+  },
+  {
+    "img": "/content/department-2.jpg",
+    "title": "FULL NCD SCREENING",
+    "desc": "This includes the tests as part of the Basic NCD Screening and additional tests that will provide a detailed first-level assessment looking at the NCD risk factors of the individual.",
+    "team": [
+      "/content/doctor-400-4.jpg",
+      "/content/doctor-400-5.jpg",
+      "/content/doctor-400-6.jpg",
+      "/content/doctor-400-7.jpg"
+    ]
+  },
+  {
+    "img": "/content/department-3.jpg",
+    "title": "FULL NCD+ SCREENING",
+    "desc": "This includes key cancer test markers that would detect the risk / presence of specific cancers that could be treated if detected early.",
+    "team": [
+      "/content/doctor-400-8.jpg",
+      "/content/doctor-400-9.jpg"
+    ]
+  },
+  {
+    "img": "/content/department-4.jpg",
+    "title": "FULL NCD+CD SCREENING",
+    "desc": "This includes the tests for key communicable (infectious) diseases that could affect you and the community that you live in.",
+    "team": [
+      "/content/doctor-400-5.jpg",
+      "/content/doctor-400-8.jpg",
+      "/content/doctor-400-4.jpg"
+    ]
+  },
+  {
+    "img": "/content/department-5.jpg",
+    "title": "BASIC HEALTH SCREENING",
+    "desc": "This includes a full set of tests that would provide a full profile of the key health panels as part of a full screening report that can be used as part follow-up consultation ",
+    "team": [
+      "/content/doctor-400-1.jpg",
+      "/content/doctor-400-3.jpg",
+      "/content/doctor-400-6.jpg"
+    ]
+  },
+  {
+    "img": "/content/department-6.jpg",
+    "title": "COMPLETE SCREENING HEALTH KIT",
+    "desc": "This includes all the tests in the Basic Health Screening as well as additional imaging tests that would provide a comprehensive medical provided by GP Doctor",
+    "team": [
+      "/content/doctor-400-7.jpg",
+      "/content/doctor-400-9.jpg",
+      "/content/doctor-400-3.jpg",
+      "/content/doctor-400-4.jpg"
+    ]
+  },{
+  "img": "/content/department-7.jpg",
+  "title": "COMPREHENSIVE HEALTH SCREENING",
+  "desc": "This includes all the tests in the Complete Health Screening as well as additional cancer screening tests. (Recommeded above for those 40 years old)",
+  "team": [
+    "/content/doctor-400-1.jpg",
+    "/content/doctor-400-5.jpg",
+    "/content/doctor-400-6.jpg"
+  ]
+}
+]

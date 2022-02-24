@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0512b66e.chunk.css",
+    "main.js": "/static/js/main.2ced35af.chunk.js",
+    "main.js.map": "/static/js/main.2ced35af.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fb24b42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fb24b42.js.map",
+    "static/css/2.cf160817.chunk.css": "/static/css/2.cf160817.chunk.css",
+    "static/js/2.9486e876.chunk.js": "/static/js/2.9486e876.chunk.js",
+    "static/js/2.9486e876.chunk.js.map": "/static/js/2.9486e876.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e439887502b22aaf7d434221e62fbe96.js": "/precache-manifest.e439887502b22aaf7d434221e62fbe96.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cf160817.chunk.css.map": "/static/css/2.cf160817.chunk.css.map",
+    "static/css/main.0512b66e.chunk.css.map": "/static/css/main.0512b66e.chunk.css.map",
+    "static/js/2.9486e876.chunk.js.LICENSE.txt": "/static/js/2.9486e876.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/icofont.c9e4bbbc.woff",
+    "static/media/logo.svg": "/static/media/logo.cde78108.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fb24b42.js",
+    "static/css/2.cf160817.chunk.css",
+    "static/js/2.9486e876.chunk.js",
+    "static/css/main.0512b66e.chunk.css",
+    "static/js/main.2ced35af.chunk.js"
+  ]
+}
