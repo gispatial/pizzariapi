@@ -5,22 +5,22 @@ import { INotification } from '../../../interfaces/notification';
 
 const defaultNotifications = [
   {
-    text: 'Sara Crouch liked your photo',
+    text: 'Admin:MyHc approved your docx',
     icon: 'icofont-heart',
     time: '17 minutes ago'
   },
   {
-    text: 'New user registered',
+    text: 'New booking registered',
     icon: 'icofont-users-alt-6',
     time: '23 minutes ago'
   },
   {
-    text: 'Amanda Lie shared your post',
+    text: 'NAEIM BINTI MAHMOD approved your submission',
     icon: 'icofont-share',
     time: '25 minutes ago'
   },
   {
-    text: 'New user registered',
+    text: 'Your new user account registered',
     icon: 'icofont-users-alt-6',
     time: '32 minutes ago'
   },

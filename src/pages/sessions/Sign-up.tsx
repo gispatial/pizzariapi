@@ -21,13 +21,17 @@ const SignUp = () => {
 
   return (
     <PublicLayout bgImg={`${window.origin}/content/register-page.jpg`}>
-      <h4 className='mt-0 mb-1'>Sign up</h4>
-      <p className='text-color-200'>Create your Account</p>
-
+      <h4 className='mt-0 mb-1'>REGISTRATION</h4>
+      <p className='text-color-200'>Fill in your detail</p>
+      <p className='text-color-200'>Please enter your details:</p>
       <Form form={form} layout='vertical' className='mb-5'>
         <Item name='name' rules={[{ required: true, message: <></> }]}>
-          <Input placeholder='Name' />
+          <Input placeholder='Full name as per National Registration IC (MYKAD)*' />
         </Item>
+
+          <Item name='name' rules={[{ required: true, message: <></> }]}>
+            <Input placeholder='IC Card (MYKAD) Number without dash ‘-‘*' />
+          </Item>
 
         <Item
           name='email'
@@ -36,8 +40,11 @@ const SignUp = () => {
             { type: 'email', message: <></> }
           ]}
         >
-          <Input placeholder='Email address' type='mail' />
+          <Input placeholder='Email address*' type='mail' />
         </Item>
+        <Item name='name' rules={[{ required: true, message: <></> }]}>
+        <Input placeholder='+60 Mobile number*' type='name' />
+      </Item>
 
         <Item name='password' rules={[{ required: true, message: <></> }]}>
           <Input placeholder='Password' type='password' />

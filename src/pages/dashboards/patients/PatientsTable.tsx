@@ -47,9 +47,9 @@ const PatientsTable = ({
 
   const actions = (patient: IPatient) => (
     <div className='buttons-list nowrap'>
-      <Button shape='circle' onClick={handleShowInfo}>
+      <div><a href='https://myhc-starter-bmztechnologies.vercel.app/#/vertical/events-calendar' target='_blank'><Button shape='circle' onClick={handleShowInfo}>
         <span className='icofont icofont-external-link' />
-      </Button>
+      </Button></a></div>
       <Button onClick={handleEditPatient.bind({}, patient)} shape='circle' type='primary'>
         <span className='icofont icofont-edit-alt' />
       </Button>

@@ -33,7 +33,7 @@ const radioStyle = {
 };
 
 const pageData: IPageData = {
-  title: 'Form elements',
+  title: 'MyHealthcard™ MEDICAL HISTORY FORM(Health circle)',
   fulFilled: true,
   breadcrumbs: [
     {
@@ -64,18 +64,14 @@ const FormElementsPage = () => {
 
   return (
     <>
-      <Card title='Inputs'>
+      <Card title='Allergies and w/o Allergies'>
         <div className='row'>
           <div className='col-md-6 col-sm-12'>
-            <Input defaultValue='Value' placeholder='Enter your username' />
+            <Input defaultValue='Allergy' placeholder='Allergies*' />
           </div>
-          <div className='col-md-6 col-sm-12'>
-            <Input
-              defaultValue='With prefix'
-              placeholder='Enter your username'
-              prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
-            />
-          </div>
+            <div className='col-md-6 col-sm-12'>
+              <Input defaultValue='Allergy Condition' placeholder='Allergic Reactions*' />
+            </div>
         </div>
 
         <Alert
@@ -92,31 +88,37 @@ const FormElementsPage = () => {
         />
       </Card>
 
-      <Card title='Selects'>
+      <Card title='MEDICATIONS'>
         <div className='row'>
+        <div className='col-md-6 col-sm-12'>
+          <Input
+            defaultValue='MEDICATIONS'
+            placeholder='Enter your prescriptions name'
+            prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
+          />
+        </div>
           <div className='col-md-6 col-sm-12'>
             <Select
-              defaultValue='lucy'
+              defaultValue='Please choose'
               placeholder='Select a person'
               optionFilterProp='children'
               className='mb-2 mb-md-0'
             >
-              <Option value='jack'>Jack</Option>
-              <Option value='lucy'>Lucy</Option>
-              <Option value='tom'>Tom</Option>
+              <Option value='Medications'>Please list ALL</Option>
+              <Option value='Dose'>Mg, Pill, etc</Option>
+              <Option value='tom'>Time per day</Option>
             </Select>
           </div>
 
           <div className='col-md-6 col-sm-12'>
             <Select
-              defaultValue={['lucy']}
-              placeholder='Select a person'
+              defaultValue={['medication']}
+              placeholder='List it ALL'
               optionFilterProp='children'
               mode='multiple'
             >
-              <Option value='jack'>Jack</Option>
-              <Option value='lucy'>Lucy</Option>
-              <Option value='tom'>Tom</Option>
+              <Option value='jack'>Mg, Pill, etc</Option>
+              <Option value='lucy'>Time per day</Option>
             </Select>
           </div>
         </div>

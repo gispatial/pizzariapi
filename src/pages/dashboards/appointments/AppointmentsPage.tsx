@@ -13,7 +13,7 @@ import { IAppointment } from '../../../interfaces/patient';
 import { IPageData } from '../../../interfaces/page';
 
 const pageData: IPageData = {
-  title: 'My Staff',
+  title: 'My Appointments',
   fulFilled: false,
   breadcrumbs: [
     {

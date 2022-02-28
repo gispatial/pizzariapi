@@ -18,7 +18,7 @@ const pageData: IPageData = {
   fulFilled: false,
   breadcrumbs: [
     {
-      title: 'Medicine',
+      title: 'My Bookings',
       route: 'default-dashboard'
     },
     {

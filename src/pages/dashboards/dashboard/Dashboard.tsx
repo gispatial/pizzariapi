@@ -72,7 +72,7 @@ const DashboardPage = () => {
               </div>
 
               <div className='col-7'>
-                <h6 className='mt-0 mb-1'>My Booking</h6>
+                <h6 className='mt-0 mb-1'>My Bookings</h6>
                 <div className='count' style={{ fontSize: 20, color: '#336cfb', lineHeight: 1.4 }}>
 
                 </div>
@@ -92,7 +92,7 @@ const DashboardPage = () => {
               </div>
 
               <div className='col-7'>
-                <h6 className='mt-0 mb-1'>My Test Result</h6>
+                <h6 className='mt-0 mb-1'>Details of Screening Test</h6>
                 <div className='count' style={{ fontSize: 20, color: '#336cfb', lineHeight: 1.4 }}>
 
                 </div>
@@ -129,7 +129,7 @@ const DashboardPage = () => {
     <div className='row'>
       <div className='col-sm-12 col-md-6'>
         <Card>
-          <h4 className='mt-0 mb-1'>ALBUMIN/ CREATININE RATIO (ACR)</h4>
+          <h4 className='mt-0 mb-1'>COVID-19 SARS-CoV-2 Cases</h4>
           <p className='mb-0' style={{ color: '#9d9d9d' }}>
           </p>
 
@@ -139,7 +139,7 @@ const DashboardPage = () => {
 
       <div className='col-sm-12 col-md-6'>
         <Card>
-          <h4 className='mt-0 mb-1'>BODY MASS INDEX (BMI)</h4>
+          <h4 className='mt-0 mb-1'>Body Mass Index</h4>
           <p className='mb-0' style={{ color: '#9d9d9d' }}>
           </p>
 
@@ -150,13 +150,13 @@ const DashboardPage = () => {
 
     <div className='row'>
       <div className='col-12 col-md-4'>
-        <Card title={'FASTIME BLOOD SUGAR (GLUCOSE)'}>
+        <Card title={'HIV I Ag/Ab'}>
           <ReactEcharts className='chart-container container-h-300' option={patientsAgeOptions} />
         </Card>
       </div>
 
       <div className='col-12 col-md-4'>
-        <Card title={'BLOOD PRESSURE'}>
+        <Card title={'Blood Pressure: Diastolic(mmHg)'}>
           <ReactEcharts
             className='chart-container container-h-300'
             option={patientsGenderOptions}
@@ -165,7 +165,7 @@ const DashboardPage = () => {
       </div>
 
       <div className='col-12 col-md-4'>
-        <Card title={'TOTAL CHOLESTROL'}>
+        <Card title={' Blood Pressure: Systolic(mmHg)'}>
           <ReactEcharts className='chart-container container-h-300' option={departmentsOptions} />
         </Card>
       </div>

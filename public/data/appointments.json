@@ -1,41 +1,9 @@
 [
   {
     "img": "/content/user-40-1.jpg",
-    "name": "Jamal bin Junid",
-    "number": "C00025-1 ADULT PATIENT",
-    "doctor": "741201023479",
-    "injury": "No files uploaded"
-  },
-  {
-    "img": "/content/user-40-3.jpg",
-    "name": "Alengan A/L Muhasamy",
-    "number": "C00025-2 ADULT PATIENT",
-    "date": "2021/SP01/67",
-    "doctor": "741201023480",
-    "injury": "No files uploaded"
-  },
-  {
-    "img": "/content/user-40-3.jpg",
-    "name": "Lee Tee Yun",
-    "number": "C00025-3 ADULT PATIENT",
-    "date": "2021/SP01/67",
-    "doctor": "741201023481",
-    "injury": "No files uploaded"
-  },
-  {
-    "img": "/content/user-40-3.jpg",
-    "name": "Shamsiah Kuhariah",
-    "number": "C00025-4 ADULT PATIENT",
-    "date": "2021/SP01/67",
-    "doctor": "741201023482",
-    "injury": "No files uploaded"
-  },
-  {
-    "img": "/content/user-40-3.jpg",
-    "name": "Ali Adham",
-    "number": "C00025-5 ADULT PATIENT",
-    "date": "2021/SP01/67",
-    "doctor": "741201023483",
-    "injury": "No files uploaded"
+    "name": "Rizaluddin Bin Mohd Salleh",
+    "number": "P00067-1 ADULT PATIENT",
+    "doctor": "461204022365",
+    "injury": "rizal_sp03.png"
   }
 ]

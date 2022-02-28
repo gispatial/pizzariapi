@@ -3,8 +3,8 @@ import { IPricing } from '../interfaces/pricing';
 export function useGetPricing(): IPricing[] {
   return [
     {
-      title: 'Personal',
-      price: 39,
+      title: 'Full NCD Screening: (Adult)',
+      price: 30,
       diskSpace: 1,
       monthlyBandwith: 10,
       accounts: 2,
@@ -13,7 +13,7 @@ export function useGetPricing(): IPricing[] {
     },
     {
       title: 'Developers',
-      price: 59,
+      price: 25,
       diskSpace: 5,
       monthlyBandwith: 25,
       accounts: 5,
@@ -22,7 +22,7 @@ export function useGetPricing(): IPricing[] {
     },
     {
       title: 'Premium',
-      price: 99,
+      price: 65,
       diskSpace: 10,
       monthlyBandwith: 100,
       accounts: 20,

@@ -14,7 +14,7 @@ import { usePageData } from '../../hooks/usePage';
 
 const pageData: IPageData = {
   fulFilled: true,
-  title: 'Inputs',
+  title: 'MyHealthcard™(Health Circle)',
   breadcrumbs: [
     {
       title: 'UI Kit',
@@ -25,7 +25,7 @@ const pageData: IPageData = {
       route: 'default-dashboard',
     },
     {
-      title: 'Inputs',
+      title: 'MyHealthcard™(Health Circle)',
     },
   ],
 };

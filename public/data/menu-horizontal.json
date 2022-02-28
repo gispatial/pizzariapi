@@ -7,7 +7,7 @@
     "title": "My Appointment",
     "sub": [
       {
-        "title": "Appointments",
+        "title": "Home Visits",
         "routing": "appointments"
       },
       {
@@ -19,7 +19,7 @@
         "routing": "departments"
       },
       {
-        "title": "Patients",
+        "title": "My Bookings",
         "routing": "patients"
       },
       {
@@ -60,8 +60,8 @@
         "routing": "contacts"
       },
       {
-        "title": "Inputs",
-        "routing": "inputs"
+        "title": "MyHealthcard™ (Health Circle)",
+        "routing": "MyHealthcard™ (Health Circle)"
       },
       {
         "title": "Modal windows",
@@ -217,7 +217,7 @@
         "routing": "events-timeline"
       },
       {
-        "title": "Events calendar",
+        "title": "Booking Schedules",
         "routing": "events-calendar"
       }
     ]

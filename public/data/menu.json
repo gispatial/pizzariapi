@@ -1,6 +1,6 @@
 [
   {
-    "title": "Corporate Basic Starter Dashboard (MAU)",
+    "title": "SP01 - Individual Basic Starter (1 Adult)",
     "groupTitle": true
   },
   {
@@ -11,7 +11,7 @@
     "routing": "default-dashboard"
   },
   {
-    "title": "My Staff",
+    "title": "My Account",
     "icon": {
       "class": "icofont-stethoscope-alt"
     },
@@ -20,19 +20,12 @@
   {
     "title": "My Test Result",
     "icon": {
-      "class": "icofont-doctor"
-    },
-    "routing": "doctors"
-  },
-  {
-    "title": "My Appointments",
-    "icon": {
       "class": "icofont-nurse"
     },
     "routing": "departments"
   },
   {
-    "title": "My Medications",
+    "title": "My Bookings",
     "icon": {
       "class": "icofont-paralysis-disability"
     },

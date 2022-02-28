@@ -17,7 +17,7 @@ type Props = {
   submitText?: string;
 };
 
-const defaultSubmitText = 'Add patient';
+const defaultSubmitText = 'Book now!';
 const emptyPatient = {
   name: null,
   address: null,
@@ -143,14 +143,14 @@ const PatientForm = ({
 
         <div className='form-group'>
           <Select
-            placeholder='Status'
+            placeholder='Centre'
             defaultValue={values.status}
             onChange={handleStatusSelect}
             className={hasError('status')}
             onBlur={() => setFieldTouched('status')}
           >
-            <Select.Option value='Approved'>Approved</Select.Option>
-            <Select.Option value='Pending'>Pending</Select.Option>
+            <Select.Option value='Approved'>Mont Kiara</Select.Option>
+            <Select.Option value='Pending'>Alamanda</Select.Option>
           </Select>
         </div>
 

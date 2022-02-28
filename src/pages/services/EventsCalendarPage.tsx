@@ -14,7 +14,7 @@ const headerOptions = {
 };
 
 const pageData: IPageData = {
-  title: 'Events calendar',
+  title: 'Schedules',
   fulFilled: true,
   breadcrumbs: [
     {
@@ -26,7 +26,7 @@ const pageData: IPageData = {
       route: 'default-dashboard'
     },
     {
-      title: 'Events calendar'
+      title: 'Booking Schedules'
     }
   ]
 };
@@ -53,7 +53,7 @@ const EventsCalendarPage = () => {
       start: setDate(0, 2),
       end: setDate(0, 3),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     },
     {
       title: 'Appointment',
@@ -61,7 +61,7 @@ const EventsCalendarPage = () => {
       start: setDate(1, -1),
       end: setDate(1, 3),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     },
     {
       title: 'Appointment',
@@ -70,7 +70,7 @@ const EventsCalendarPage = () => {
       classNames: ['event-pink'],
       end: setDate(1, 3),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     },
     {
       title: 'Appointment',
@@ -79,7 +79,7 @@ const EventsCalendarPage = () => {
       start: setDate(1, -3),
       end: setDate(1, -2),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     },
     {
       title: 'Appointment',
@@ -87,7 +87,7 @@ const EventsCalendarPage = () => {
       start: setDate(3, -5),
       end: setDate(4),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     },
     {
       title: 'Appointment',
@@ -96,7 +96,7 @@ const EventsCalendarPage = () => {
       start: setDate(5, 10),
       end: setDate(6),
       desc:
-        'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+        'MyHealthcard™ may give refunds for some Package purchases, depending on the refund policies. You can also contact our customer service directly.'
     }
   ];
 
@@ -113,14 +113,14 @@ const EventsCalendarPage = () => {
     modalBody = (
       <div className='d-flex flex-column'>
         <div className='event-time flex-column mb-4'>
-          <h5 className='event-title m-0'>Event time</h5>
+          <h5 className='event-title m-0'>Walk-In Time</h5>
           <span>
             From: {event.start.toDateString()} - to: {event.end.toDateString()}
           </span>
         </div>
 
         <div className='event-desc flex-column'>
-          <h5 className='event-title m-0'>Event description</h5>
+          <h5 className='event-title m-0'>Booking description</h5>
           <span>{event.extendedProps.desc}</span>
         </div>
       </div>
@@ -139,7 +139,7 @@ const EventsCalendarPage = () => {
         <Button onClick={closeModal} danger>
           Close
         </Button>
-        <Button type='primary'>Change event</Button>
+        <Button type='primary'>Change booking date</Button>
       </div>
     );
   }

@@ -8,7 +8,7 @@
       {
         "date": "2m ago",
         "title": "Appointment",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate.",
+        "content": "This QR code contains your screening appointment details. Please scan the QR code at the clinic which you have make appointment with for registration upon your arrival.",
         "icon": "icofont-doctor-alt",
         "iconBg": "#64B5F6",
         "iconColor": "#fff"

@@ -49,15 +49,15 @@ const UserPreview = () => {
       </div>
 
       <div className='d-flex align-items-center justify-content-between'>
-        <h5 className='mb-0 mt-0 mr-1'>Naem Binti Mahmod</h5>
+        <h5 className='mb-0 mt-0 mr-1'>Rizaluddin Bin Mohd Salleh</h5>
 
         <Rate value={4} />
       </div>
 
-      <p style={{ color: '#8f8f90' }}>Doctor</p>
+      <p style={{ color: '#8f8f90' }}>ezabidin@gmail.com</p>
 
       <p>
-        Dummy data for corporate basic account.
+      This QR code contains your screening appointment details. Please scan the QR code at the clinic which you have make appointment with for registration upon your arrival.
       </p>
     </Card>
   );
@@ -65,7 +65,7 @@ const UserPreview = () => {
 
 const Socials = () => {
   return (
-    <Card className='with-shadow' title='SP09 - Corporate Basic Starter'>
+    <Card className='with-shadow' title='SP01 - Individual Basic Starter (1 Adult)'>
       <div className='row align-items-center mb-3'>
       </div>
     </Card>
@@ -81,7 +81,7 @@ const ContactInfo = () => {
         </div>
         <div className='col'>
           <div>Mobile</div>
-          +60122366551
+          +60193097197
         </div>
       </div>
 
@@ -90,8 +90,8 @@ const ContactInfo = () => {
           <span className='icofont-company' style={{ fontSize: 30, color: '#8f8f90' }} />
         </div>
         <div className='col'>
-          <div>Company Registration</div>
-          DUMEI IT SOLUTION-003067360-Z
+          <div>Biodata</div>
+          Note: If you need to change any particular in this profile, please contact our Admin through MY INBOX message
         </div>
       </div>
 
@@ -101,7 +101,7 @@ const ContactInfo = () => {
         </div>
         <div className='col'>
           <div>Current Address</div>
-          No. 36, Jalan 14/32, Seksyen 14, Petaling Jaya, Selangor
+          No 2 Jalan 3/23, Kajang, 43650, Hulu Langat, Selangor
         </div>
       </div>
     </Card>
@@ -111,14 +111,21 @@ const ContactInfo = () => {
 const Experience = () => {
   return (
     <Card title='Registration status : APPROVED' className='with-shadow'>
-
+    REG. NO. 021/SP01/67 CENTER
+    MONT KIARA
+    DATE REGISTERED
+    12 Sep 2021
+    DATE EXPIRED
+    11 Sep 2022
+    PATIENT(S)
+    1 x ADULT
     </Card>
   );
 };
 
 const Education = () => {
   return (
-    <Card title='Contact no: 0379582578' className='with-shadow'>
+    <Card title='Contact no: +60193097197' className='with-shadow'>
     </Card>
   );
 };

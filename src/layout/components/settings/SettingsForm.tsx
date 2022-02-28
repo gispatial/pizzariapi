@@ -57,11 +57,11 @@ const SettingsForm = ({ settings, onResetSettings, onUpdateSetting }: Props) => 
   return (
     <Form layout='vertical' className='settings-form'>
 
-      <Form.Item label='Nite Mode/ Day Mode'>
+      <Form.Item label='Potrait/ Landscape Mode'>
         <Select onChange={handleLayoutChange} defaultValue={layoutUrl}>
-          <Select.Option value={'vertical'}>Night Mode</Select.Option>
+          <Select.Option value={'vertical'}>Mobile Mode</Select.Option>
 
-          <Select.Option value={'horizontal'}>Day Mode</Select.Option>
+          <Select.Option value={'horizontal'}>Tablet Mode</Select.Option>
         </Select>
       </Form.Item>
 

@@ -28,10 +28,10 @@ const SignIn = () => {
 
       <Form form={form} layout='vertical' className='mb-4'>
         <Item name='login' rules={[{ required: true, message: <></> }]}>
-          <Input placeholder='Login' />
+          <Input placeholder='Enter your Username' />
         </Item>
         <Item name='password' rules={[{ required: true, message: <></> }]}>
-          <Input placeholder='Password' type='password' />
+          <Input placeholder='Enter your Password' type='password' />
         </Item>
 
         <div className='d-flex align-items-center mb-4'>
@@ -45,17 +45,21 @@ const SignIn = () => {
           htmlType='submit'
           icon={<LoginOutlined style={{ fontSize: '1.3rem' }} />}
         >
-          Login
+          Log in
         </Button>
       </Form>
       <br />
       <p className='mb-1'>
-        <a href='#'>Forgot password?</a>
+        <Link to='../page-505'>Forgot Your Password?</Link>
       </p>
 
       <p>
         You will need to have a MyHealthcard™ account to access this  app. <Link to='sign-up'>Register!</Link> to create a new account.
       </p>
+      <p>Our Terms & Conditions.</p>
+      <div><a href='https://staging.myhealthcard.my/myhc/v1/docs/terms-and-conditions.pdf' target='_blank'>Product & Service T&C</a></div>
+      <div><a href='https://staging.myhealthcard.my/myhc/v1/docs/terms-and-conditions.pdf' target='_blank'>MyHealthcard™ Application T&C</a></div>
+      <div>BMZ TECHNOLOGIES SDN BHD (1367481-W). Copyright 2021. All rights reserved.</div>
     </PublicLayout>
   );
 };

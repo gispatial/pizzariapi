@@ -14,7 +14,7 @@ import { IPageData } from '../../interfaces/page';
 import { usePageData } from '../../hooks/usePage';
 
 const pageData: IPageData = {
-  title: 'Markeplace',
+  title: 'Marketplace',
   fulFilled: true,
   breadcrumbs: [
     {
@@ -22,7 +22,7 @@ const pageData: IPageData = {
       route: 'default-dashboard'
     },
     {
-      title: 'UI Kit ',
+      title: 'Home',
       route: 'default-dashboard'
     },
     {

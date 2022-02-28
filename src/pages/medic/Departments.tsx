@@ -7,7 +7,7 @@ import { useFetchPageData, usePageData } from '../../hooks/usePage';
 import { IDepartment } from '../../interfaces/patient';
 
 const pageData: IPageData = {
-  title: 'My Booking Appointment',
+  title: 'NCD PANEL',
   fulFilled: false,
   breadcrumbs: [
     {

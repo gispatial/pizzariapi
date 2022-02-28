@@ -32,7 +32,7 @@ const NestedTable = () => {
         render: () => (
           <span className='table-operation'>
             <Dropdown overlay={menu}>
-              <a onClick={(e) => e.preventDefault()} href='https://test.com/'>
+              <a href="https://myhc-cart-bmztechnologies.vercel.app/">
                 More <DownOutlined />
               </a>
             </Dropdown>
@@ -64,12 +64,12 @@ const NestedTable = () => {
       title: 'Purchase',
       key: 'operation',
       render: () => (
-        <a onClick={(e) => e.preventDefault()} href='#'>
-          Purchase
-        </a>
+        <a href="https://myhc-cart-bmztechnologies.vercel.app/" target="_blank">Purchase</a>
+
       )
     }
   ];
+
 
   const data = [];
   for (let i = 0; i < 3; ++i) {
